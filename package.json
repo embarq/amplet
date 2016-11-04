@@ -17,6 +17,9 @@
     "html",
     "css"
   ],
+  "endine": {
+    "node": "v6.8.1"
+  },
   "bin": {
     "amplet": "./index.js"
   },
@@ -30,5 +33,11 @@
   "bugs": {
     "url": "https://github.com/embarq/amplet/issues"
   },
-  "homepage": "https://github.com/embarq/amplet#readme"
+  "homepage": "https://github.com/embarq/amplet#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "inquirer": "^1.2.2",
+    "js-beautify": "^1.6.4",
+    "walk": "^2.3.9"
+  }
 }
