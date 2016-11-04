@@ -1,0 +1,34 @@
+{
+  "name": "amplet",
+  "version": "0.1.0",
+  "description": "Prettifying tool for your source files",
+  "main": "index.js",
+  "scripts": {
+    "test": "nonde"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/embarq/amplet.git"
+  },
+  "keywords": [
+    "beautify",
+    "prettify",
+    "js",
+    "html",
+    "css"
+  ],
+  "bin": {
+    "amplet": "./index.js"
+  },
+  "config": {
+    "color": true,
+    "save": true,
+    "save-exact": true
+  },
+  "author": "embarq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/embarq/amplet/issues"
+  },
+  "homepage": "https://github.com/embarq/amplet#readme"
+}
